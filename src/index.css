@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-ivory: #F7F3EC;
+    --color-ivory-light: #FCFAF6;
+    --color-olive: #344438;
+    --color-olive-dark: #243027;
+    --color-olive-light: #485D4E;
+    --color-gold: #B69A65;
+    --color-gold-light: #CFB888;
+    --color-gold-dark: #957A4B;
+    --color-brown: #604B3C;
+    --color-charcoal: #1F2421;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Cairo', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  /* When english is active */
+  html[lang="en"] {
+    font-family: 'Plus Jakarta Sans', 'Cairo', system-ui, sans-serif;
+  }
+
+  /* Custom scrollbar for luxury feel */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F7F3EC;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #B69A65;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #957A4B;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-cairo {
+  font-family: 'Cairo', system-ui, sans-serif;
+}

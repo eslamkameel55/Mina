@@ -1,0 +1,6 @@
+{
+  "name": "MeNa Restaurant – Tilal Riyadh | مطعم مينا",
+  "description": "الموقع الرسمي لمطعم مينا (MeNa Restaurant) داخل فندق تلال الرياض - تجربة طعام راقية مستوحاة من المطبخ الشامي والضيافة العربية الفاخرة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
